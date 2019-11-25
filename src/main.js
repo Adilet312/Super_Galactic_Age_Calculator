@@ -10,7 +10,8 @@ $(document).ready(function(){
      let lifeEx =  $("#lifeExpectancyID").val();
      let age = $("#ageID").val();
      console.log(lifeEx,age);
-     let galactic_ages = new GalacticAge(lifeEx,age);
+     let galactic_ages = new GalacticAge(age,lifeEx);
+     console.log(galactic_ages.yearsHavePassedToLiveInMercury());
      let array = galactic_ages.listAgeOfPlanets();
      let new_array = [];
      for(let index=0; index<array.length; index++){

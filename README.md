@@ -6,9 +6,18 @@
 ##### By _**Adilet Momunaliev**_
 &nbsp;
 ## **Specs**
-* _Constructor gets only positive numbers in order give output._
-* _Each method calculate year of the other planet based on user;s age._
-* _Each element of the array properly outputs string version of each planet._
+* _The program will accept an age in Earth years and return age in Mercury:input age:30 => output:124.43 years in Mercury._
+* _The program will accept an age in Earth years and return age in Venus:input age:30 => output: 48.67 years in Venus._
+* _The program will accept an age in Earth years and return age in Mars:input age:30 => output: 15.94 years in Mars._
+* _The program will accept an age in Earth years and return age in Jupiter:input age:30 => output: 2.50 years in Jupiter._
+* _The program will accept a lifeExpectancy and an age in Earth years and return how many years left they have to live in Mercury:input age 30 and lifeExpectancy 50 age => output: 82.95 years in Mercury._
+* _The program will accept a lifeExpectancy and an age in Earth years and return how many years left they have to live in Venus:input age 30 and lifeExpectancy 50 age => output: 32.44 years in Venus._
+* _The program will accept a lifeExpectancy and an age in Earth years and return how many years left they have to live in Mars:input age 30 and lifeExpectancy 50 age => output: 10.63 years in Mars._
+* _The program will accept a lifeExpectancy and an age in Earth years and return how many years left they have to live in Jupiter:input age 30 and lifeExpectancy 50 age => output: 1.67 years in Jupiter._
+* _The program will accept an age and lifeExpectancy in Earth years and return age and how many years you've passed life expectancy in Mercury: input age 60 and lifeExpectancy 50 years => output: 41.48 years in Mercury._
+* _The program will accept an age and lifeExpectancy in Earth years and return age and how many years you've passed life expectancy in Venus: input age 60 and lifeExpectancy 50 years => output: 16.22 years in Venus._
+* _The program will accept an age and lifeExpectancy in Earth years and return age and how many years you've passed life expectancy in Mars: input age 60 and lifeExpectancy 50 years => output: 5.31  years in Mars._
+* _The program will accept an age and lifeExpectancy in Earth years and return age and how many years you've passed life expectancy in Jupiter: input age 60 and lifeExpectancy 50 years => output: 0.83 years in Jupiter._
 
 ## **Tests**
 
