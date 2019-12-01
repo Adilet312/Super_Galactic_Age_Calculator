@@ -78,7 +78,7 @@ export class GalacticAge
             return passedLIfeExpectancy.toFixed(2);
         }
     }
-    agePassedLifeExpectancyInMercury(){}
+    
     listAgeOfPlanets()
     {
         let matrix = [];
