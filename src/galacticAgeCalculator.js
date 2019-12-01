@@ -1,6 +1,5 @@
 export class GalacticAge
 {
-    
     constructor(age,lifeExpectancy)
     {
         this.age = age;
@@ -79,37 +78,4 @@ export class GalacticAge
         }
     }
     
-    listAgeOfPlanets()
-    {
-        let matrix = [];
-        if(this.age<=this.lifeExpectancy)
-        {
-
-        matrix[0] = "Your age is "+this.ageOfMercury()+" years in Mercury; You've left to live " +this.yearsHavePassedToLiveInMercury()+" years in Mercury;";
-        matrix[1] = "Your age is "+this.ageOfVenus()+" years in Venus;  You've left to live " +this.yearsHavePassedToLiveInVenus()+" years in Venus;";
-        matrix[2] = "Your age is "+this.ageOfMars()+" years in Mars;  You've left to live " +this.yearsHavePassedToLiveInMars()+" years in Mars;";
-        matrix[3] = "Your age is "+this.ageOfJupiter()+" years in Jupiter;  You've left to live " +this.yearsHavePassedToLiveInJupiter()+" years in Jupiter;;";
-        return matrix;
-        }
-        else
-        {
-            matrix[0] = "Your age is "+this.ageOfMercury()+" years in Mercury; You've passed life expecatncy " +this.yearsHavePassedToLiveInMercury()+" years in Mercury;";
-            matrix[1] = "Your age is "+this.ageOfVenus()+" years in Venus;  You've passed life expectancy " +this.yearsHavePassedToLiveInVenus()+" years in Venus;";
-            matrix[2] = "Your age is "+this.ageOfMars()+" years in Mars;  You've passed life expectancy " +this.yearsHavePassedToLiveInMars()+" years in Mars;";
-            matrix[3] = "Your age is "+this.ageOfJupiter()+" years in Jupiter;  You've passed life expectancy " +this.yearsHavePassedToLiveInJupiter()+" years in Jupiter;;";
-            return matrix;
-        }
-    }
-
-
-
-    
-
-
-                     
-
-        
-
-    
-
 }
